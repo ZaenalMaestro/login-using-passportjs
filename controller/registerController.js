@@ -12,7 +12,6 @@ const registerController = {
     } catch (error) {
       res.redirect('/register')
     }
-    console.log(users)
   }
 }
 
